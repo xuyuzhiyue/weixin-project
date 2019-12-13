@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movies/movies",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/movieDetail/movieDetail",
+    "pages/tap/tap"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#489B81",
+    "navigationBarTitleText": "Youth",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "文与情",
+        "iconPath": "/images/icon/yuedu.png",
+        "selectedIconPath": "/images/icon/yuedu1.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影迷影",
+        "iconPath": "/images/icon/dianying.png",
+        "selectedIconPath": "/images/icon/dianying1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap17.json"
+}

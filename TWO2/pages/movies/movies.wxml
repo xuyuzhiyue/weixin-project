@@ -1,0 +1,13 @@
+<!--pages/movies/movies.wxml-->
+<view >
+   <view class="moviesContainer">
+    <image class="movieImg" src="/images/a2.jpg"></image>
+    <view class="movie_detail">
+    <text class="movie_name">霸王别姬</text>
+    <text class="movie_year">年份：2019</text>
+    <text class="movie_director">导演：陈凯歌</text>
+    
+    </view>
+    <text class="movie_rating">9.6</text>
+  </view>
+</view>

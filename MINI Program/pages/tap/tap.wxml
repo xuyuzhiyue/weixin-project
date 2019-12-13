@@ -1,0 +1,2 @@
+<!--pages/tap/tap.wxml-->
+<button bindtap='godouban'>点击跳转<web-view src="https://www.douban.com/"></web-view></button>

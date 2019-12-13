@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/movies/movies",
+    "pages/index/index",
+    "pages/list/list",
+    "pages/detail/detail"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#489B81",
+    "navigationBarTitleText": "NO Fail",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "文与子",
+        "iconPath": "/images/icon/yuedu.png",
+        "selectedIconPath": "/images/icon/yuedu1.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影迷影",
+        "iconPath": "/images/icon/dianying.png",
+        "selectedIconPath": "/images/icon/dianying1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap18.json"
+}
